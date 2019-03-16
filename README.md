@@ -3,6 +3,7 @@ My personal tmux configuration. I have been looking around for a while for an ex
 I was able to make it work just the way I want eventually and I would like to share it with everyone who is interested.
 
 This configuration will automatically create my default layout when opening tmux with `tmux a` command.
+
 default-layout:
 
 	_________________________________
@@ -20,7 +21,7 @@ default-layout:
 	!_______________________!_______!
 
 
-the layout can be changed inside `.tmux/config/default-layout.sh`
+the layout can be changed inside `.tmux/config/default-layout.sh`.
 It will trigger powerline for tmux, htop, lnav for /var/log/apache2/error.log, and one sudo su for a root console.
 
 You may find additional information [here](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
@@ -33,6 +34,6 @@ Requirements:
 Setup:
 1. `cd`
 2. `git clone https://github.com/blisk92/tmux-autolayout-config.git`
-3. `ln -s git/tmux-autolayout-config/.tmux/ ./`
-4. `ln -s git/tmux-autolayout-config/.tmux.conf ./`
+3. `ln -s tmux-autolayout-config/.tmux/ ./`
+4. `ln -s tmux-autolayout-config/.tmux.conf ./`
 5. run tmux via `tmux a`
