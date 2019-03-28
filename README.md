@@ -9,20 +9,20 @@ default-layout:
 	_________________________________
 	! 	  80%		!  20%	!
 	! 			!  	!
+	! 		   37.5%! 	!
 	! 			!  	!
-	! 			!50%  	!
-	! 			!  	!
-	!75% 			!_______!
-	! 			!  	!
-	! 			!25%	!
+	! 			!_______!
+	!75% 			! 	!
+	! 		   37.5%! 	!
+	! 			!	!
 	!_______________________!_______!
-	! 	    		!  	!
-	!25% 			!25%	!
-	!_______________________!_______!
+	! 	50%    	!  	50%	!
+	!25% 		! 		!
+	!_______________!_______________!
 
 
 the layout can be changed inside `.tmux/config/default-layout.sh`.
-It will trigger powerline for tmux, htop, lnav for /var/log/apache2/error.log, and one sudo su for a root console.
+It will trigger powerline for tmux, htop, lnav for /var/log/apache2/error.log and access.log, and one sudo su for a root console.
 
 You may find additional information [here](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
 
