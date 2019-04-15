@@ -1,4 +1,4 @@
-# tmux-autolayout-config
+# wsl-tmux-autolayout-config
 My personal tmux configuration. I have been looking around for a while for an example config for tmux where it will automatically create a predefined layout, but I couldn't get any of those to work properly.
 I was able to make it work just the way I want eventually and I would like to share it with everyone who is interested.
 
